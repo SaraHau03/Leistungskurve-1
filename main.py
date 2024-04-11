@@ -1,28 +1,25 @@
-import load_data
+from load_data import load_data
 import sort
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import numpy as np
+import csv
 
+data = load_data('activity.csv')
+power_W = data['PowerOriginal']
+print(power_W)
 
-# load_data.py
-def load_data(filename):
-    # Hier den Code zum Laden der Daten aus der CSV-Datei einfügen
-    pass
-# sort.py
-def bubble_sort(data):
-    # Hier den Code für den Bubble-Sort-Algorithmus einfügen
-    pass
-# main.py
-
-
-# Daten laden
-data = load_data.load_data("activity.csv")
 
 # Daten sortieren
-sorted_data = sort.bubble_sort(data)
 
+#sorted_data = sort.bubble_sort()
+sorted_data = sort.bubble_sort(power_W)
 # Grafik erstellen und speichern
-plt.plot(sorted_data)
+
+
+#plt.plot(sorted_data)
+img_new = np.rot90(sorted_data, 2)
+plt.plot(img_new)
+
 plt.savefig("figures/power_curve.png")
 
 
