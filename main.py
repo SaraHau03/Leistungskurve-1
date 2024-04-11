@@ -5,7 +5,7 @@ import numpy as np
 
 
 # load_data.py
-def load_data(file_path):
+def load_data(filename):
     # Hier den Code zum Laden der Daten aus der CSV-Datei einfügen
     pass
 # sort.py
