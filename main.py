@@ -21,4 +21,4 @@ sorted_data = sort.bubble_sort(data)
 plt.plot(sorted_data)
 plt.savefig("figures/power_curve.png")
 
-hallo
+hallochen
