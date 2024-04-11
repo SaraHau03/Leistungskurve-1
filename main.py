@@ -1,11 +1,11 @@
 import load_data
-#import sort
+import sort
 import matplotlib as plt
 import numpy as np
 
 
 # load_data.py
-def load_data(filename):
+def load_data(file_path):
     # Hier den Code zum Laden der Daten aus der CSV-Datei einfügen
     pass
 # sort.py
