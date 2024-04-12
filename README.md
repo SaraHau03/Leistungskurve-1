@@ -2,13 +2,13 @@
 - lade den Ordner herunter und öffne den Ordner in Visual Studio Code
 - Öffne ein Terminal
 - Erstelle eine neue Python-Umgebung
-  - python -m venv .venv
+  - `python -m venv .venv`
 - Aktiviere die Umgebung 
-  - Windows: .venv\Scripts\Activate
+  - Windows: `.venv\Scripts\Activate`
 - Installiere die Pakete
-  - Entweder mit pip install <paketname>
-  - Oder mit pip install -r requirement.txt
-- Dann wird das Programm mit python main.py gestartet
+  - Entweder mit `pip install <paketname>`
+  - Oder mit `pip install -r requirement.txt`
+- Dann wird das Programm mit `python main.py` gestartet
 
 
 ## Wie wird der Code genutzt?
