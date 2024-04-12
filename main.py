@@ -17,7 +17,7 @@ plt.plot(time_s, img_new)
 plt.xlabel("Time/min")
 plt.ylabel("W/kg")
 
-plt.show()
-plt.savefig("figures/power_curve.png")
 
+plt.savefig("figures/power_curve.png")
+plt.show()
 
